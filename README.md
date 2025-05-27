@@ -45,10 +45,14 @@ pip install -r requirements.txt
 
 Installe et lance un modèle Ollama (exemple avec Mistral) :
 ```ollama run mistral
+
 ▶️ Utilisation de base
 ```python main.py --url https://www.youtube.com/watch?v=EXEMPLE
+
 Avec sélection du modèle :
+
 ```python main.py --url https://youtu.be/EXEMPLE --model mistral
+
 📁 Structure du projet
 ```youtube-summarizer/
 ├── main.py                  # Script principal
@@ -58,19 +62,23 @@ Avec sélection du modèle :
 ├── config.py                # Configuration
 ├── requirements.txt         # Dépendances Python
 └── README.md
+
 ### 🧩 Fonctionnalités à venir
 - Interface graphique (desktop et/ou web)
 - API REST pour intégration facile
 - Résumé multilingue
 - Résumé en chapitres ou style blog
 - Export PDF / TXT / Markdown
+
 ### 🤝 Contributions
+
 Les PR sont les bienvenues ! Merci de :
 - Forker le repo
 - Créer une branche : git checkout -b feature-nouvelle-fonction
 - Commit : git commit -am 'Ajout nouvelle fonction'
 - Push : git push origin feature-nouvelle-fonction
 - Faire une Pull Request
+
 📜 Licence
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
 
